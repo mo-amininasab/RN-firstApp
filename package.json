@@ -1,5 +1,19 @@
 {
   "main": "node_modules/expo/AppEntry.js",
+  "expo": {
+    "name": "First Dummy App",
+    "icon": "./assets/favicon.png",
+    "version": "1.0.0",
+    "slug": "your-app-slug",
+    "ios": {
+      "bundleIdentifier": "com.yourcompany.yourappname",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.yourcompany.yourappname",
+      "versionCode": 1
+    }
+   },
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
